@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export KAFKA_REST_ID=dp-kafka-rest
 export KAFKA_REST_BOOTSTRAP_SERVERS=$KAFKA_BROKERS
 
 # Schema Registry

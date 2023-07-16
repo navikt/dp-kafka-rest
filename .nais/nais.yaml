@@ -24,9 +24,9 @@ spec:
     max: 1
   resources:
     limits:
-      memory: 256Mi
+      memory: 512Mi
     requests:
       cpu: 100m
-      memory: 128Mi
+      memory: 256Mi
   kafka:
     pool: {{ kafka.pool }}
