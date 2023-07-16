@@ -32,3 +32,7 @@ spec:
       memory: 256Mi
   kafka:
     pool: {{ kafka.pool }}
+  accessPolicy:
+    inbound:
+      rules:
+        - application: dp-kafka-status
