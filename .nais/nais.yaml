@@ -12,7 +12,9 @@ spec:
   image: {{ image }}
   port: 8082
   prometheus:
-    enabled: false
+    enabled: true
+    port: "5556"
+    path: /metrics
   liveness:
     path: /brokers
   readiness:
